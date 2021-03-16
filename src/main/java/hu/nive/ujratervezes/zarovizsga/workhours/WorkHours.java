@@ -28,7 +28,7 @@ public class WorkHours {
 
 
     private WorkPerDayReport getWorkPerDayReportPerLine(String line) {
-        String[] lineData =  line.split(",");
+        String[] lineData = line.split(",");
         String name = lineData[0];
         int hoursOfWork = Integer.parseInt(lineData[1]);
         String date = lineData[2];
